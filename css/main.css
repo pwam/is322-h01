@@ -251,11 +251,13 @@ header[role="banner"] a:hover, header[role="banner"] a:focus {
 	z-index: 1;
 }
 .logo a, .logo img {
-	width: 100px;
-	height: 19px;
+	display: block;
+	width: 120px;
+	height: auto;
+	padding: 0.6em 1em 0.4em 0.7em;
 }
 .nav-anchors {
-	float: right;
+	float: none;
 }
 .nav-anchors li {
 	display: inline-block;
@@ -310,12 +312,17 @@ header[role="banner"] a:hover, header[role="banner"] a:focus {
 	z-index: 1;
 }
 .nav {
+	border-left: 1px solid #333;
+	border-right: 1px solid #333;
 	margin: 0 -1em;
 	text-align: center;
 	text-transform: uppercase;
 }
 header[role="banner"] .nav {
-	border-top: 1px solid #333;
+	float: left;
+	clear none;
+	margin 0;
+	border-top: 0;
 	clear: left;
 }
 .nav li {
