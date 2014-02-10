@@ -938,6 +938,29 @@ header[role="banner"] .nav {
 .service-links li.tel a {
 	display: inline;	
 }
+/*Aux Pages*/
+.back-nav a {
+	display: block;
+	padding: 1em;
+	color: #fff;
+	background: #111;
+	background: #111; /* Old browsers */
+	background: -moz-linear-gradient(top, #111 0%, #222 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#111), color-stop(100%,#222)); 
+	background: -webkit-linear-gradient(top, #111 0%,#222 100%); 
+	background: -o-linear-gradient(top, #111 0%,#222 100%);
+	background: -ms-linear-gradient(top, #111 0%,#222 100%); /* IE10+ */
+	background: linear-gradient(top, #111 0%,#222 100%); /* W3C */
+}
+.content-snippet {
+	padding: 1em;
+}
+@media screen and (min-width: 28.75em) {
+.related-products li {
+		width: 33.3333333%;
+	}
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
