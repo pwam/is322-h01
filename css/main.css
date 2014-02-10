@@ -821,7 +821,123 @@ header[role="banner"] .nav {
 	margin: 0 auto;
 	max-width: 11em;
 }
+/*Footer*/
+.footer {
+	background: #333;
+	background: -moz-linear-gradient(top, #333 0%, #111 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#333), color-stop(100%,#111));
+	background: -webkit-linear-gradient(top, #333 0%,#111 100%); 
+	background: -o-linear-gradient(top, #333 0%,#111 100%); 
+	background: -ms-linear-gradient(top, #333 0%,#111 100%); 
+	background: linear-gradient(top, #333 0%,#111 100%);
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	clear: both;
+}
+.footer > div {
+	max-width: 65em;
+	margin: 0 auto;
+	padding: 0 1em 0;
+	text-align: left;
+	overflow: hidden;
+	-webkit-animation: fadein 0.4s ease-out 1;
+	-moz-animation: fadein 0.4s ease-out 1;
+	-ms-animation: fadein 0.4s ease-out 1;
+}
+.footer a:hover, .footer a:focus {
+	color: #fff;
+	background-image: -webkit-radial-gradient(ellipse closest-side, rgba(255,255,255,0.1), rgba(255,255,255,0));
+	background-image: -moz-radial-gradient(ellipse closest-side, rgba(255,255,255,0.1), rgba(255,255,255,0));
+	background-image: -ms-radial-gradient(ellipse closest-side, rgba(255,255,255,0.1), rgba(255,255,255,0));
+	background-image: -o-radial-gradient(ellipse closest-side, rgba(255,255,255,0.1), rgba(255,255,255,0));
+}
+.footer .nav {
+	margin: 0;
+}
+.footer .nav li a {
+	padding: 0.8em 0.8em 0.5em;
+}
+.footer ul {
+	margin-bottom: 1em;
+}
+.footer li {
+	display: inline-block;
+}
+.footer li a {
+	padding-top: 1.2em;
+}
+.service-links {
+	text-align: center;
+}
+.service-links li {
+	margin: 0 0.5em;
+}
+.service-links li:first-child {
+	margin-left: 0;
+}
+.service-links li:last-child {
+	margin-right: 0;
+}
+.service-links li a {
+	border: 0;
+	padding: 0.2em;
+	font-size: 0.7em;
+}
+.service-links li.tel a {
+	background: #333;
+	background: rgba(0,0,0,0.3);
+	color: #999;
+	border: 1px solid #444;
+	text-align: center;
+	padding: 0.3em 0.7em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+	-ms-border-radius: 0.5em;
+	border-radius: 0.5em;
+}
+.top:after {
+	content: ' â–²';
+}
 
+/*Aux Pages*/
+.back-nav a {
+	display: block;
+	padding: 1em;
+	color: #fff;
+	background: #111;
+	background: #111; /* Old browsers */
+	background: -moz-linear-gradient(top, #111 0%, #222 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#111), color-stop(100%,#222)); 
+	background: -webkit-linear-gradient(top, #111 0%,#222 100%); 
+	background: -o-linear-gradient(top, #111 0%,#222 100%);
+	background: -ms-linear-gradient(top, #111 0%,#222 100%); /* IE10+ */
+	background: linear-gradient(top, #111 0%,#222 100%); /* W3C */
+}
+.content-snippet {
+	padding: 1em;
+}
+.footer ul {
+	margin: 0;	
+}
+.footer .nav {
+	float: left;	
+}
+.footer .nav li a {
+	padding: 1.3em;
+	line-height: 1;
+}
+.footer ul.service-links {
+	float: right;
+	margin-top: 0.9em;
+}
+.service-links li.tel {
+	display: inline-block;
+}	
+.service-links li.tel a {
+	display: inline;	
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
