@@ -667,6 +667,160 @@ header[role="banner"] .nav {
 .reviews {
 	padding-bottom: 3em;
 }
+/*Product Description*/
+.product-description header {
+	border-top: 1px solid #333;
+}
+
+/*Reviews*/
+.reviews header h2 {
+	display: inline-block;
+}
+
+/*Related Products*/
+.related-products {
+	position: relative;
+	border-top: 1px solid #808080;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	border-bottom: 1px solid #b0b3ad;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.related-list {
+	position: relative;
+}
+.related-products ul {
+	margin: 0 -0.5em;
+	position: relative;
+	z-index: 1;
+	left: 0;
+}
+.related-products li {
+	float: left;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0.5em;
+	width: 50%;
+}
+.related-products li a {
+	display: block;
+	border: 1px solid #b0b3ad;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+	-ms-border-radius: 0.5em;
+	border-radius: 0.5em;
+	-webkit-transition: all 0.3s ease-out;
+}
+.related-products li a:hover, .related-products li a:focus {
+	border-color: #fff;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+.related-products li img {
+	display: block;
+	width: 100%;
+}
+
+.related-products li:last-child {
+	margin: 0;
+}
+
+/*Reviews*/
+.reviews {
+	position: relative;
+	border-top: 1px solid #808080;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+.reviews-list {
+	border-top: 1px solid #b0b3ad;
+	border-top: 1px solid rgba(0,0,0,0.2);
+	margin-bottom: 1em;
+}
+.reviews-list > li {
+	overflow: hidden;
+	padding: 2em 0;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	border-bottom: 1px solid #b0b3ad;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.reviews-list .star {
+	margin-left: 0;
+}
+.reviews-list img {
+	max-width: 4em;
+	max-height: 4em;
+	border: 1px solid #b0b3ad;
+	float: left;
+	padding: 0;
+	margin: 0 1em 1em 0;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+	-ms-border-radius: 0.5em;
+	border-radius: 0.5em;
+}
+.review-meta {
+	font-size: 0.8em;
+}
+.review-content {
+	clear: left;
+}
+.review-content p:last-child {
+	margin: 0;
+}
+.related-products {
+	clear: both;
+	border: 0;
+}
+.related-products header {
+	border: 0;
+}
+.related-products li {
+	width: 16.6666667%;
+}
+.related-nav a {
+	position: absolute;
+	top: 50%;
+	left: -2.5em;
+	z-index: 0;
+	display: block;
+	height: 160px;
+	width: 2.5em;
+	text-indent: -99999em;
+	background: url(http://www.tiffany.com/Shared/images/misc/arrow2_left_on.gif) no-repeat 50% -65px;	
+}
+.related-nav a.nav-next {
+	left: auto;
+	right: -2.5em;
+	background: url(http://www.tiffany.com/Shared/images/misc/arrow2_right_on.gif) no-repeat 50% -65px;	
+}
+/*Reviews*/
+.reviews {
+	border: 0;
+}
+.reviews-list img {
+	max-width: 6em;
+	max-height: 6em;
+	margin: 0 1em 0 0;
+}
+.review-meta {
+	font-size: 1em;
+	float: left;
+	width: 30%;
+	padding-top: 0.8em;
+}
+.review-content {
+	clear: none;
+	padding-top: 0.8em;
+	margin-left: 50%;
+}
+.reviews .btn {
+	display: block;
+	margin: 0 auto;
+	max-width: 11em;
+}
 
 /* ==========================================================================
    Helper classes
