@@ -247,17 +247,13 @@ header[role="banner"] a:hover, header[role="banner"] a:focus {
 .logo {
 	float: left;
 	margin: 0.35em 0 0.25em 0.7em;
-	position: relative;
-	z-index: 1;
 }
 .logo a, .logo img {
-	display: block;
-	width: 120px;
-	height: auto;
-	padding: 0.6em 1em 0.4em 0.7em;
+	width: 100px;
+	height: 19px;
 }
 .nav-anchors {
-	float: none;
+	float: right;
 }
 .nav-anchors li {
 	display: inline-block;
@@ -312,17 +308,12 @@ header[role="banner"] a:hover, header[role="banner"] a:focus {
 	z-index: 1;
 }
 .nav {
-	border-left: 1px solid #333;
-	border-right: 1px solid #333;
 	margin: 0 -1em;
 	text-align: center;
 	text-transform: uppercase;
 }
 header[role="banner"] .nav {
-	float: left;
-	clear none;
-	margin 0;
-	border-top: 0;
+	border-top: 1px solid #333;
 	clear: left;
 }
 .nav li {
@@ -341,6 +332,67 @@ header[role="banner"] .nav {
 }
 .nav li:first-child a {
 	border-left: 0;
+}
+/*Hide Search and Nav only if Advanced JS is present*/
+.queryselectorall .search, .queryselectorall [role="banner"] .nav {
+	display: none;
+}
+.logo {
+	margin: 0;
+	font-size: 1.6em;
+	position: relative;
+	z-index: 1;
+}
+.logo a {
+	display: block;
+	width: 120px;
+	height: auto;
+	padding: 0.6em 1em 0.4em 0.7em;
+}
+.logo img {
+	width: 120px;
+	height: auto;	
+}
+.nav-anchors {
+	display: none;
+}
+.nav {
+	border-left: 1px solid #333;
+	border-right: 1px solid #333;
+}
+header[role="banner"] .nav {
+	float: left;
+	clear: none;
+	margin: 0;
+	border-top: 0;
+}
+.search {
+	border: 0;
+	padding: 0;
+	position: absolute;
+	top: 0.8em;
+	right: 1em;
+	width: 10em;
+}
+.queryselectorall .search, .queryselectorall [role="banner"] .nav {
+	display: block;
+}
+.product-main {
+	padding-bottom: 2em;
+}
+.product-img {
+	float: left;
+	width: 50%;
+	height: auto;
+	margin-top: -4.8em;
+}
+.product-main > header {
+	padding-top: 1em;
+}
+.product-main > header, .product-desc, .product-form, .product-utils, .product-description {
+	padding-left: 2em;
+	margin-left: 50%;
+}
 
 /* ==========================================================================
    Helper classes
