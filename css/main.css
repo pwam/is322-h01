@@ -117,7 +117,7 @@ legend {
 body { 
 	font: 100%/1.5 'Gill Sans', 'Droid Sans', 'Calibri', 'Lucida Grande', 'Trebuchet MS', 'Helvetica Neue', 'Arial', sans-serif; 
 	color: #000;
-	background: url(images/bg2.png) #fff; 
+	background: url(img/bg2.png) #fff; 
 	text-align: center;
 }
 a {
@@ -333,7 +333,7 @@ header[role="banner"] a:hover, header[role="banner"] a:focus {
 	display: none;	
 }
 .search input[type=search] {
-	background: url(images/icon_search.png) no-repeat 95% 50% #111;
+	background: url(img/icon_search.png) no-repeat 95% 50% #111;
 	color: #999;
 	border: 1px solid #333;
 	font-size: 0.8em;
@@ -874,7 +874,9 @@ input[type=number]::-webkit-outer-spin-button {
 	display: none;
 }
 /************End Comment Mode**************/
-  /************End Global**************/
+
+@media screen and (min-width: 40.5em) {
+/************End Global**************/
 h1 {
 	font-size: 2em;
 }
@@ -1143,6 +1145,7 @@ header[role="banner"] .nav {
 label, input,textarea, .nav-anchors li, .nav li, .price, .star, .star li, .product-img nav, .product-img nav li, .product-utils a, .reviews header h2, .footer li {
 	zoom: 1;
 	*display: inline;
+}
 }
 /* ==========================================================================
    Helper classes
